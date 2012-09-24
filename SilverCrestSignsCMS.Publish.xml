@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://173.203.64.145/MsDeployAgentService" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="SilverCrestSigns" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="Rackspace" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="Administrator" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmbYQDr7St0SbZ6qKBGwd8AAAAAACAAAAAAAQZgAAAAEAACAAAAA+NWm2heZMmDdBZ36kz+St9Uunbuv+BNnwthgZnUPSPQAAAAAOgAAAAAIAACAAAABzZoWC7+vQFfKAfAOs9YXnespZQqQHse3NvBH7SjdcWSAAAADION2BGSU9WT3T8KLU4SJFmfJfhANDJ/hgtIBe+uY5m0AAAAARz4smV9+Ytao+Mq8sFIC47KPlRRkk1cV0IHNXne7s9OmcwaZQzcFsuSTgriJrBx74jZBh6K/JZtPMRlNP93BY" SelectedForPublish="True" />
+</publishData>

@@ -1,0 +1,57 @@
+﻿/* Reset CSS v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/* remember to define focus styles! */
+:focus { outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+/* Begin Styles */
+body { background: #ffffff url(../Images/admin-background.png) top left repeat-x; font-family: Arial; font-size: 12px; }
+
+fieldset { border: 1px solid #0076a3; padding: 15px; margin: 15px; }
+fieldset p { margin: 2px 12px 10px 10px; }
+fieldset label { display: block; font-weight: bold; font-size: 95%; margin-bottom: 3px; }
+fieldset label.inline { display: inline; }
+legend { font-size: 1.1em; font-weight: 600; padding: 2px 4px 8px 4px; }
+input, textarea {padding: 3px;}
+input[type="text"], input[type="password"] { width: 200px; }
+textarea {width: 400px; height: 150px; font-family: Arial;}
+
+.validation-summary-errors { font-weight: bold; color: #ff0000; }
+.validation-summary-errors li { font-weight: bold; color: #ff0000; margin-left: 15px; margin-top: 5px; }
+
+.validaton-summary, .error, .warning, .success { width: 100%; margin: 10px; margin-left: 0px; }
+.validaton-summary, .error { border: 1px solid #bb0202; padding: 5px; font-weight: bold; background: #ffd2d3; font-size: 11px; }
+.warning { border: 1px solid #000000; padding: 5px; font-weight: bold; background: #fff200; color: #000000; }
+.success { border: 1px solid #406618; padding: 5px; font-weight: bold; background: #c4df9b; color: #406618; }
+
+.page {width: 100%;}
+
+.grid { border: 1px solid #0076a3; margin-bottom: 10px; }
+.grid tr.header th{ background: #0076a3; color: white; }
+.grid tr td, .grid tr th { padding: 5px; }
+.grid tr.footer { background: #0076a3; color: white; }
+
+
+.modules {margin: 15px;}
+.modules div {padding: 5px; padding-left: 10px;}
+.modules h4 {margin-bottom: 5px; color: #666;}
+
+.search { border: 1px solid #0076a3; padding: 5px; background: #0076a3; width: 400px; margin-top: 15px; margin-bottom: 15px; }
+.search input[type="text"] { width: 300px; }
+.search input[type="submit"] { margin-left: 5px; }
+
+.sortable tr td {cursor: move;} 
+.sortable tr:hover td {cursor: move; background: #d1f3fd;}

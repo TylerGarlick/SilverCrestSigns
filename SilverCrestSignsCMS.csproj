@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{70163C69-61A4-4157-8989-1F9516B362A9}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SilverCrestSignsCMS</RootNamespace>
+    <AssemblyName>SilverCrestSignsCMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Elmah, Version=1.0.10617.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Ionic.Zip, Version=1.7.2.20, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="MvcPaging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.UI, Version=2009.1.506.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_Libraries\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Microsoft.Web.Mvc.DataAnnotations.dll" />
+    <Content Include="bin\Microsoft.Web.Mvc.DataAnnotations.pdb" />
+    <Content Include="bin\Microsoft.Web.Mvc.DataAnnotations.xml" />
+    <Content Include="Content\Images\bookshelf.jpg" />
+    <Content Include="Content\Images\bookshelf_design.jpg" />
+    <Content Include="Content\Images\bookshelf_web.jpg" />
+    <Content Include="Content\Images\ford_truck.jpg" />
+    <Content Include="Content\Images\handshake%281%29.jpg" />
+    <Content Include="Content\Images\install1.jpg" />
+    <Content Include="Content\Images\revealed_bookshelf.jpg" />
+    <Content Include="Content\Images\sign_service.jpg" />
+    <Content Include="Content\Images\Silvercrest Map Close.jpg" />
+    <Content Include="Content\Images\Silvercrest Map Overview.jpg" />
+    <Content Include="Content\Images\silvercrest_classic_logo.jpg" />
+    <Content Include="Content\Images\Sled 14 JPEG.JPG" />
+    <Content Include="Content\Images\Star-Noodle-1.jpg" />
+    <Content Include="Content\Images\Star-Noodle-2.jpg" />
+    <Content Include="Content\Images\Star-Noodle-3.jpg" />
+    <Content Include="Content\Images\Star-noodle_design.jpg" />
+    <Content Include="Content\Images\starnoodle.jpg" />
+    <Content Include="Content\Images\Vintage-Silvercrest.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-2438_Building.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-2438_Building_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-ada_braille_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-ada_braille_thumb_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-core1.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-core1_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-Dennis-Petersen.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-Dennis-Petersen_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-outpost.jpg" />
+    <Content Include="Content\Uploaded\Gallery\1-outpost_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\10-broadbent_ortho.jpg" />
+    <Content Include="Content\Uploaded\Gallery\10-broadbent_ortho_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\10-jiffy.jpg" />
+    <Content Include="Content\Uploaded\Gallery\10-jiffy_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\10-little_toes.jpg" />
+    <Content Include="Content\Uploaded\Gallery\10-little_toes_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\10HighlandPark500pi.jpg" />
+    <Content Include="Content\Uploaded\Gallery\10HighlandPark500pi_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\11-BULLDOG.jpg" />
+    <Content Include="Content\Uploaded\Gallery\11-BULLDOG_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\11-maniaclures.jpg" />
+    <Content Include="Content\Uploaded\Gallery\11-maniaclures_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\11-rascals.jpg" />
+    <Content Include="Content\Uploaded\Gallery\11-rascals_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\11-sellnmail.jpg" />
+    <Content Include="Content\Uploaded\Gallery\11-sellnmail_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\12-Good-as-New.jpg" />
+    <Content Include="Content\Uploaded\Gallery\12-Good-as-New_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\12-marriott.jpg" />
+    <Content Include="Content\Uploaded\Gallery\12-marriott_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\12-reserve.jpg" />
+    <Content Include="Content\Uploaded\Gallery\12-reserve_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\13-dawns_bridal.jpg" />
+    <Content Include="Content\Uploaded\Gallery\13-dawns_bridal_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\13-Got-Grass.jpg" />
+    <Content Include="Content\Uploaded\Gallery\13-Got-Grass_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\13-merlins_drivein.jpg" />
+    <Content Include="Content\Uploaded\Gallery\13-merlins_drivein_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\13-second_street.jpg" />
+    <Content Include="Content\Uploaded\Gallery\13-second_street_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\14-artisan_grille.jpg" />
+    <Content Include="Content\Uploaded\Gallery\14-artisan_grille_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\14-Heritage.jpg" />
+    <Content Include="Content\Uploaded\Gallery\14-Heritage_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\14-metro_magnet.jpg" />
+    <Content Include="Content\Uploaded\Gallery\14-metro_magnet_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\14-sibu_dark.jpg" />
+    <Content Include="Content\Uploaded\Gallery\14-sibu_dark_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\15-edgewater_chalets.jpg" />
+    <Content Include="Content\Uploaded\Gallery\15-edgewater_chalets_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\15-Envious.jpg" />
+    <Content Include="Content\Uploaded\Gallery\15-Envious_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\15-miya.jpg" />
+    <Content Include="Content\Uploaded\Gallery\15-miya_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\15-sibu_light.jpg" />
+    <Content Include="Content\Uploaded\Gallery\15-sibu_light_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\16-702.jpg" />
+    <Content Include="Content\Uploaded\Gallery\16-702_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\16-floral_expressions.jpg" />
+    <Content Include="Content\Uploaded\Gallery\16-floral_expressions_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\16-mountainview.jpg" />
+    <Content Include="Content\Uploaded\Gallery\16-mountainview_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\16-subway.jpg" />
+    <Content Include="Content\Uploaded\Gallery\16-subway_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\17-almo_inn.jpg" />
+    <Content Include="Content\Uploaded\Gallery\17-almo_inn_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\17-mountain_luxury.jpg" />
+    <Content Include="Content\Uploaded\Gallery\17-mountain_luxury_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\17-ogdenclinic.jpg" />
+    <Content Include="Content\Uploaded\Gallery\17-ogdenclinic_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\18-g3.jpg" />
+    <Content Include="Content\Uploaded\Gallery\18-g3_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\18-NASteel.jpg" />
+    <Content Include="Content\Uploaded\Gallery\18-NASteel_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\18-oldfarm.jpg" />
+    <Content Include="Content\Uploaded\Gallery\18-oldfarm_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\19-crowther_cabin.jpg" />
+    <Content Include="Content\Uploaded\Gallery\19-crowther_cabin_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\19-rays_truck.jpg" />
+    <Content Include="Content\Uploaded\Gallery\19-rays_truck_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\19-Tashi.jpg" />
+    <Content Include="Content\Uploaded\Gallery\19-Tashi_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-2438_midsection.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-2438_midsection_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-allstar_truck.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-allstar_truck_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-aunt_bees.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-aunt_bees_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-Floral Expressions.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-Floral Expressions_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-tracy_store.jpg" />
+    <Content Include="Content\Uploaded\Gallery\2-tracy_store_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\20-almo-outpost.jpg" />
+    <Content Include="Content\Uploaded\Gallery\20-almo-outpost_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\20-remuda.jpg" />
+    <Content Include="Content\Uploaded\Gallery\20-remuda_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\20-second_street.jpg" />
+    <Content Include="Content\Uploaded\Gallery\20-second_street_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\21-aquatic_dreams.jpg" />
+    <Content Include="Content\Uploaded\Gallery\21-aquatic_dreams_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\21-NuDeez.jpg" />
+    <Content Include="Content\Uploaded\Gallery\21-NuDeez_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\21-sellnmail_banner.jpg" />
+    <Content Include="Content\Uploaded\Gallery\21-sellnmail_banner_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\22-2440.jpg" />
+    <Content Include="Content\Uploaded\Gallery\22-2440_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\22-Big-Mountain.jpg" />
+    <Content Include="Content\Uploaded\Gallery\22-Big-Mountain_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\22-sellnmail_sidewalk.jpg" />
+    <Content Include="Content\Uploaded\Gallery\22-sellnmail_sidewalk_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\23-almo_outpost.jpg" />
+    <Content Include="Content\Uploaded\Gallery\23-almo_outpost_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\23-Golden-Spike.jpg" />
+    <Content Include="Content\Uploaded\Gallery\23-Golden-Spike_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\23-shultz.jpg" />
+    <Content Include="Content\Uploaded\Gallery\23-shultz_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\24-basinview.jpg" />
+    <Content Include="Content\Uploaded\Gallery\24-basinview_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\24-OSYM.jpg" />
+    <Content Include="Content\Uploaded\Gallery\24-OSYM_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\24-siteseeing.jpg" />
+    <Content Include="Content\Uploaded\Gallery\24-siteseeing_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\25-bell_display.jpg" />
+    <Content Include="Content\Uploaded\Gallery\25-bell_display_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\25-Redstone.jpg" />
+    <Content Include="Content\Uploaded\Gallery\25-Redstone_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\25-stencils.jpg" />
+    <Content Include="Content\Uploaded\Gallery\25-stencils_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\26-britches.jpg" />
+    <Content Include="Content\Uploaded\Gallery\26-britches_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\26-Liberty-Ag.jpg" />
+    <Content Include="Content\Uploaded\Gallery\26-Liberty-Ag_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\26-swift.jpg" />
+    <Content Include="Content\Uploaded\Gallery\26-swift_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\27-almo_out.jpg" />
+    <Content Include="Content\Uploaded\Gallery\27-almo_out_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\27-cliftons_installed.jpg" />
+    <Content Include="Content\Uploaded\Gallery\27-cliftons_installed_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\27-tracy_wall.jpg" />
+    <Content Include="Content\Uploaded\Gallery\27-tracy_wall_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\28-cliftons.jpg" />
+    <Content Include="Content\Uploaded\Gallery\28-cliftons_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\28-J&amp;L.jpg" />
+    <Content Include="Content\Uploaded\Gallery\28-J&amp;L_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\28-wasatch_truck.jpg" />
+    <Content Include="Content\Uploaded\Gallery\28-wasatch_truck_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\29-dabb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\29-dabb_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\29-Sidewinder.jpg" />
+    <Content Include="Content\Uploaded\Gallery\29-Sidewinder_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\29weber_sentinal.jpg" />
+    <Content Include="Content\Uploaded\Gallery\29weber_sentinal_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-2438.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-2438_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-almosthome.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-almosthome_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-almo_inn.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-almo_inn_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-bennet.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-bennet_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-Maniac-Lures.jpg" />
+    <Content Include="Content\Uploaded\Gallery\3-Maniac-Lures_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\30-ellis.jpg" />
+    <Content Include="Content\Uploaded\Gallery\30-ellis_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\30-Pineview-Estates.jpg" />
+    <Content Include="Content\Uploaded\Gallery\30-Pineview-Estates_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\30-xtream.jpg" />
+    <Content Include="Content\Uploaded\Gallery\30-xtream_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\31-envious.jpg" />
+    <Content Include="Content\Uploaded\Gallery\31-envious_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\31-Ron%27s.jpg" />
+    <Content Include="Content\Uploaded\Gallery\31-Ron%27s_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\32-flame_trailer.jpg" />
+    <Content Include="Content\Uploaded\Gallery\32-flame_trailer_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\32-S&amp;S.jpg" />
+    <Content Include="Content\Uploaded\Gallery\32-S&amp;S_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\33-grandmas.jpg" />
+    <Content Include="Content\Uploaded\Gallery\33-grandmas_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\33-Star-Canyon.jpg" />
+    <Content Include="Content\Uploaded\Gallery\33-Star-Canyon_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\34-heritage_ranch.jpg" />
+    <Content Include="Content\Uploaded\Gallery\34-heritage_ranch_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\34-Tres-Muertes.jpg" />
+    <Content Include="Content\Uploaded\Gallery\34-Tres-Muertes_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\35-saunders.jpg" />
+    <Content Include="Content\Uploaded\Gallery\35-saunders_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\36-sibu_dark.jpg" />
+    <Content Include="Content\Uploaded\Gallery\36-sibu_dark_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\37-sibu_light.jpg" />
+    <Content Include="Content\Uploaded\Gallery\37-sibu_light_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\38-tacotime.jpg" />
+    <Content Include="Content\Uploaded\Gallery\38-tacotime_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\39-walkinpark.jpg" />
+    <Content Include="Content\Uploaded\Gallery\39-walkinpark_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\4-702.jpg" />
+    <Content Include="Content\Uploaded\Gallery\4-702_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\4-alpha.jpg" />
+    <Content Include="Content\Uploaded\Gallery\4-alpha_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\4-american_center.jpg" />
+    <Content Include="Content\Uploaded\Gallery\4-american_center_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\4-KB-lawn.jpg" />
+    <Content Include="Content\Uploaded\Gallery\4-KB-lawn_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5-any_given.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5-any_given_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5-delta_dental.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5-delta_dental_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5-PGB.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5-PGB_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5-plain_city.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5-plain_city_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\1-outpost.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\1-outpost_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\10-broadbent_ortho.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\11-sellnmail.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\12-reserve.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\13-dawns_bridal.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\14-artisan_grille.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\15-edgewater_chalets.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\16-floral_expressions.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\17-mountain_luxury.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\18-g3.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\19-crowther_cabin.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\2-tracy_store.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\20-remuda.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\21-aquatic_dreams.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\22-2440.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\23-almo_outpost.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\24-basinview.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\25-bell_display.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\26-britches.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\27-cliftons_installed.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\28-cliftons.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\29-dabb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\3-almo_inn.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\30-ellis.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\31-envious.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\32-flame_trailer.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\33-grandmas.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\34-heritage_ranch.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\35-saunders.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\36-sibu_dark.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\37-sibu_light.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\38-tacotime.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\39-walkinpark.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\4-american_center.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\5-plain_city.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\6-bradford.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\7-merlins.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\8-gottula.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\9-comdata_bank.jpg" />
+    <Content Include="Content\Uploaded\Gallery\5\amER.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6-autowash.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6-autowash_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6-bradford.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6-bradford_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6-firefresh_channel.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6-firefresh_channel_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6-KBW.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6-KBW_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\1-ada_braille_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\1-ada_braille_thumb_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\10-jiffy.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\11-maniaclures.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\12-marriott.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\13-merlins_drivein.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\14-metro_magnet.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\15-miya.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\16-mountainview.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\17-ogdenclinic.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\18-oldfarm.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\19-rays_truck.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\2-allstar_truck.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\20-second_street.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\21-sellnmail_banner.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\22-sellnmail_sidewalk.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\23-shultz.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\24-siteseeing.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\25-stencils.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\26-swift.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\27-tracy_wall.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\28-wasatch_truck.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\29weber_sentinal.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\3-almosthome.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\30-xtream.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\4-alpha.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\5-any_given.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\6-autowash.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\7-floral_window.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\8-hansen.jpg" />
+    <Content Include="Content\Uploaded\Gallery\6\9-jiffy2.jpg" />
+    <Content Include="Content\Uploaded\Gallery\7-floral_window.jpg" />
+    <Content Include="Content\Uploaded\Gallery\7-floral_window_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\7-merlins.jpg" />
+    <Content Include="Content\Uploaded\Gallery\7-merlins_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\7-Toolmaker.jpg" />
+    <Content Include="Content\Uploaded\Gallery\7-Toolmaker_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\8-gottula.jpg" />
+    <Content Include="Content\Uploaded\Gallery\8-gottula_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\8-hansen.jpg" />
+    <Content Include="Content\Uploaded\Gallery\8-hansen_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\8-Tri-City.jpg" />
+    <Content Include="Content\Uploaded\Gallery\8-Tri-City_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\9-5S-Consulting.jpg" />
+    <Content Include="Content\Uploaded\Gallery\9-5S-Consulting_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\9-comdata_bank.jpg" />
+    <Content Include="Content\Uploaded\Gallery\9-comdata_bank_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\9-howlatmoon.jpg" />
+    <Content Include="Content\Uploaded\Gallery\9-howlatmoon_thumb.jpg" />
+    <Content Include="Content\Uploaded\Gallery\9-jiffy2.jpg" />
+    <Content Include="Content\Uploaded\Gallery\9-jiffy2_thumb.jpg" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Views\WebPages\Create.aspx" />
+    <Content Include="Views\WebPages\Edit.aspx" />
+    <Content Include="Views\WebPages\Index.aspx" />
+    <Content Include="Views\Shared\SystemMessage.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Scripts\jquery-1.3.2.js" />
+    <Content Include="Scripts\jquery-1.3.2.min.js" />
+    <Content Include="Scripts\jquery-1.3.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.3.2.min-vsdoc.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Home\About.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\RadSpell\de-DE.tdf" />
+    <None Include="App_Data\RadSpell\en-US.tdf" />
+    <None Include="App_Data\RadSpell\fr-FR.tdf" />
+    <Content Include="App_Data\CMS_DB.mdf">
+    </Content>
+    <Content Include="App_Data\CMS_DB_log.ldf">
+      <DependentUpon>CMS_DB.mdf</DependentUpon>
+    </Content>
+    <Content Include="bin\CMS.Library.dll" />
+    <Content Include="bin\CMS.Library.pdb" />
+    <Content Include="bin\Elmah.dll" />
+    <Content Include="bin\Elmah.pdb" />
+    <Content Include="bin\Elmah.xml" />
+    <Content Include="bin\Google.GData.Analytics.dll" />
+    <Content Include="bin\Google.GData.Analytics.pdb" />
+    <Content Include="bin\Google.GData.Client.dll" />
+    <Content Include="bin\Google.GData.Client.pdb" />
+    <Content Include="bin\Google.GData.Extensions.dll" />
+    <Content Include="bin\Google.GData.Extensions.pdb" />
+    <Content Include="bin\Ionic.Zip.dll" />
+    <Content Include="bin\MvcPaging.dll" />
+    <Content Include="bin\MvcPaging.pdb" />
+    <Content Include="bin\Telerik.Web.Design.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.XML" />
+    <Content Include="Content\CSS\jquery.lightbox-0.5.css" />
+    <Content Include="Content\CSS\LoginStyles.css" />
+    <Content Include="Content\CSS\MainTemplateStyles.css" />
+    <Content Include="Content\CSS\SharedStyles.css" />
+    <Content Include="Content\CSS\SiteStyles.css" />
+    <Content Include="Content\Global.css" />
+    <Content Include="Content\GlobalAdmin.css" />
+    <Content Include="Content\Images\arrow_down.png" />
+    <Content Include="Content\Images\arrow_up.png" />
+    <Content Include="Content\Images\bg.png" />
+    <Content Include="Content\Images\button-background.jpg" />
+    <Content Include="Content\Images\content-only.png" />
+    <Content Include="Content\Images\drag-icon.png" />
+    <Content Include="Content\Images\header-background.jpg" />
+    <Content Include="Content\Images\header-background.png" />
+    <Content Include="Content\Images\admin-background.png" />
+    <Content Include="Content\Images\header_content.jpg" />
+    <Content Include="Content\Images\homepage-header.jpg" />
+    <Content Include="Content\Images\horizontalmenu-background.jpg" />
+    <Content Include="Content\Images\keepers_of_the_craft.jpg" />
+    <Content Include="Content\Images\left-content-background-WhiteEdge.jpg" />
+    <Content Include="Content\Images\left-content-background.jpg" />
+    <Content Include="Content\Images\left-picture.png" />
+    <Content Include="Content\Images\lightbox-blank.gif" />
+    <Content Include="Content\Images\lightbox-btn-close.gif" />
+    <Content Include="Content\Images\lightbox-btn-next.gif" />
+    <Content Include="Content\Images\lightbox-btn-prev.gif" />
+    <Content Include="Content\Images\lightbox-ico-loading.gif" />
+    <Content Include="Content\Images\logo.jpg" />
+    <Content Include="Content\Images\modal-popup-background.png" />
+    <Content Include="Content\Images\page-bottom.jpg" />
+    <Content Include="Content\Images\page-gradient.png" />
+    <Content Include="Content\Images\pg-background.jpg" />
+    <Content Include="Content\Images\right-picture.png" />
+    <Content Include="Content\Images\SS-Web-logo-Home%282%29.jpg" />
+    <Content Include="Content\Images\tab-left-off.png" />
+    <Content Include="Content\Images\tab-left-on.png" />
+    <Content Include="Content\Images\tab-right-off.png" />
+    <Content Include="Content\Images\tab-right-on.png" />
+    <Content Include="Scripts\cms.gallery.module.js" />
+    <Content Include="Scripts\cms.menu.create.js" />
+    <Content Include="Scripts\cms.menuitems.create.js" />
+    <Content Include="Scripts\cms.menuitems.edit.js" />
+    <Content Include="Scripts\cms.menuitems.index.js" />
+    <Content Include="Scripts\cms.module.js" />
+    <Content Include="Scripts\jquery-ui-1.7.1.custom.min.js" />
+    <Content Include="Scripts\jquery.lightbox-0.5.min.js" />
+    <Content Include="Templates\MainTemplate.Master" />
+    <Content Include="Views\Account\AdminRegister.aspx" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Admin\CommentsAwaitingApproval.ascx" />
+    <Content Include="Views\Admin\CommentSettings.aspx" />
+    <Content Include="Views\Admin\ContactUsSettings.aspx" />
+    <Content Include="Views\Admin\ControlPanel.aspx" />
+    <Content Include="Views\Admin\FlaggedComments.ascx" />
+    <Content Include="Views\Admin\Index.aspx" />
+    <Content Include="Views\ContactUs\ContactInformation.ascx" />
+    <Content Include="Views\ContactUs\Index.aspx" />
+    <Content Include="Views\Galleries\Create.aspx" />
+    <Content Include="Views\Galleries\Delete.aspx" />
+    <Content Include="Views\Galleries\Edit.aspx" />
+    <Content Include="Views\Galleries\Index.aspx" />
+    <Content Include="Views\GalleryPhotos\Create.aspx" />
+    <Content Include="Views\GalleryPhotos\CreatePageModule.aspx" />
+    <Content Include="Views\GalleryPhotos\Delete.aspx" />
+    <Content Include="Views\GalleryPhotos\Edit.aspx" />
+    <Content Include="Views\GalleryPhotos\Index.aspx" />
+    <Content Include="Views\GalleryPhotos\UploadZip.aspx" />
+    <Content Include="Views\Home\NotAuthorized.aspx" />
+    <Content Include="Views\MenuItems\Create.aspx" />
+    <Content Include="Views\MenuItems\Delete.aspx" />
+    <Content Include="Views\MenuItems\Edit.aspx" />
+    <Content Include="Views\MenuItems\Index.aspx" />
+    <Content Include="Views\MenuItems\MenuBreadCrumb.ascx" />
+    <Content Include="Views\Menus\Create.aspx" />
+    <Content Include="Views\Menus\Delete.aspx" />
+    <Content Include="Views\Menus\Edit.aspx" />
+    <Content Include="Views\Menus\Index.aspx" />
+    <Content Include="Views\Menus\SelectMenu.aspx" />
+    <Content Include="Views\Modules\Index.aspx" />
+    <Content Include="Views\Groups\Create.aspx" />
+    <Content Include="Views\Groups\Delete.aspx" />
+    <Content Include="Views\Groups\Index.aspx" />
+    <Content Include="Views\Shared\AdminHeader.ascx" />
+    <Content Include="Views\Shared\AvailableModules.ascx" />
+    <Content Include="Views\Shared\CommentAdd.ascx" />
+    <Content Include="Views\Shared\CommentAddForm.ascx" />
+    <Content Include="Views\Shared\CommentMessage.ascx" />
+    <Content Include="Views\Shared\Comments.ascx" />
+    <Content Include="Views\Shared\Gallery.ascx" />
+    <Content Include="Views\Shared\MainTemplate.aspx" />
+    <Content Include="Views\Shared\MenuModule.ascx" />
+    <Content Include="Views\Shared\Modules.ascx" />
+    <Content Include="Views\Users\Delete.aspx" />
+    <Content Include="Views\Users\Edit.aspx" />
+    <Content Include="Views\Users\Index.aspx" />
+    <Content Include="Views\Shared\UserRoles.ascx" />
+    <Content Include="Views\WebPages\Delete.aspx" />
+    <Content Include="Views\WebPages\GalleryModuleBuilder.ascx" />
+    <Content Include="Views\WebPages\MenuModuleBuilder.ascx" />
+    <Content Include="Views\WebPages\Security.aspx" />
+    <Content Include="Views\WebPages\TextModuleBuilder.ascx" />
+    <Content Include="Views\Shared\PageNotFound.aspx" />
+    <Content Include="Views\Shared\TextModule.ascx" />
+    <Content Include="Views\TextModule\Update.aspx" />
+    <Content Include="Views\WebsiteUser\Index.aspx" />
+    <Content Include="_Libraries\Analytics\Google.GData.Analytics.dll" />
+    <Content Include="_Libraries\Analytics\Google.GData.Analytics.pdb" />
+    <Content Include="_Libraries\Analytics\Google.GData.Client.dll" />
+    <Content Include="_Libraries\Analytics\Google.GData.Client.pdb" />
+    <Content Include="_Libraries\Analytics\Google.GData.Extensions.dll" />
+    <Content Include="_Libraries\Analytics\Google.GData.Extensions.pdb" />
+    <Content Include="_Libraries\Elmah.dll" />
+    <Content Include="_Libraries\Elmah.pdb" />
+    <Content Include="_Libraries\Elmah.xml" />
+    <Content Include="_Libraries\Ionic.Zip.dll" />
+    <Content Include="_Libraries\Microsoft.Web.Mvc.DataAnnotations.dll" />
+    <Content Include="_Libraries\Microsoft.Web.Mvc.DataAnnotations.pdb" />
+    <Content Include="_Libraries\Microsoft.Web.Mvc.DataAnnotations.xml" />
+    <Content Include="_Libraries\Microsoft.Web.Mvc.dll" />
+    <Content Include="_Libraries\MvcPaging.dll" />
+    <Content Include="_Libraries\MvcPaging.pdb" />
+    <Content Include="_Libraries\RouteDebug.dll" />
+    <Content Include="_Libraries\System.ComponentModel.DataAnnotations.dll" />
+    <Content Include="_Libraries\Telerik.Web.Design.dll" />
+    <Content Include="_Libraries\Telerik.Web.UI.dll" />
+    <Content Include="_Libraries\Telerik.Web.UI.XML" />
+    <None Include="Content\pdf\Sign_Cycle.pdf" />
+    <Content Include="Templates\AboutTemplate.Master" />
+    <Content Include="Templates\PortfolioTemplate.Master" />
+    <Content Include="Templates\ResourcesTemplate.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Uploaded\Gallery\7\" />
+    <Folder Include="Content\Uploaded\Gallery\8\" />
+    <Folder Include="Content\Uploaded\Gallery\9\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="HelperClasses\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)\..\$(ProjectName)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52923</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

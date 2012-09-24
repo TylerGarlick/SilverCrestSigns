@@ -1,0 +1,6 @@
+﻿body { background: #77B0BF; text-align: center; font-family: Arial; font-size: 11px; }
+
+#login {background: white; padding: 25px; margin: 0 auto; width: 400px; text-align: left; margin-top: 100px;}
+#login hr {background: #666666;}
+#login h2 { font-family: Arial; font-weight: bold; font-size: 30px; margin: 0px; padding: 0px;}
+#login fieldset {padding:10px; margin:0px; border: 0px; border-top: 1px solid #666666; border-bottom: 1px solid #666666; margin-top: 10px; padding-left: 0px; padding-right: 0px; }

@@ -1,0 +1,93 @@
+﻿/* Reset CSS v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/* remember to define focus styles! */
+:focus { outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+input[type="checkbox"], input[type="radio"] { margin-right: 5px; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+body { background: #ffffff; font-family: Arial; font-size: 12px; }
+fieldset { border: 1px solid black; padding: 15px; margin: 15px; }
+fieldset p { margin: 2px 12px 10px 10px; }
+fieldset label { display: block; font-weight: bold; font-size: 95%; margin-bottom: 3px; }
+fieldset label.inline { display: inline; }
+legend { font-size: 1.1em; font-weight: 600; padding: 2px 4px 8px 4px; }
+input, textarea {padding: 3px;}
+input[type="text"], input[type="password"] { width: 200px; }
+textarea {width: 600px; height: 150px; font-family: Arial;}
+
+/* Admin SilverCrestSignsCMS Styles  */
+.page {width: 100%;}
+
+
+body { background: #ffffff url(/content/images/pg-background.jpg) top left repeat-x; text-align: center;}
+#container {text-align: left; margin: 0 auto; width: 795px; background: #ffffff; margin-top: 70px; border: 1px solid #000000;}
+
+#header {height: 119px; background: #253d57 url(/content/images/header-background.jpg) top left repeat-x;}
+#header #logo {background: #ffffff; float: left; width: 160px;}
+
+.menu {font-family: arial, sans-serif; position:relative; font-size:11px; z-index:100;}
+.menu ul li a, .menu ul li a:visited {display:block; text-decoration:none; color:#000;text-align:center; overflow:hidden;}
+.menu ul {padding:0; margin:0; list-style: none;}
+.menu ul li {float:left; position:relative;}
+.menu ul li ul {display: none;}
+
+.menu {display: block; background: #d5d5d5 url(/content/images/horizontalmenu-background.jpg) top left repeat-x; height: 20px; border-top: 1px solid #393939; border-bottom: 5px solid #393939; text-align: center; }
+.menu .menuitem, .menuitem:hover  {float: left; width: 158px; border-right: 1px solid #393939; height: 20px; text-align: center; padding-top: 4px; color: #393939; font-weight: bold; border-top: 1px solid #393939; border-bottom: 5px solid #393939;}
+
+
+.menu a { display: block; color: #4a4a4a; width:158px;  height:20px;}
+.menu a:hover {  width:158px; color: #4a4a4a; text-decoration: none;}
+.menu ul { list-style: none; }
+.menu ul li a { height: 20px; width: 158px; border-right: 1px solid #c5c2c2; }
+.menu ul li.right a {  border-right: 0px; }
+.menu ul li:hover a { height:20px; width:158px;}
+.menu ul li { float: left; background: url(/content/images/horizontalmenu-background.jpg) bottom left repeat-x; }
+
+
+/* specific to non IE browsers */
+.menu ul li:hover a {color:#000; background:#cdcdcd; vertical-align: middle;   }
+.menu ul li:hover ul {display:block; position:absolute; top:23px; left:0; width:158px;}
+.menu ul li:hover ul li a.hide {background:#6a3; color:#fff;}
+.menu ul li:hover ul li:hover a.hide {background:#6fc; color:#000;}
+.menu ul li:hover ul li ul {display: none;}
+.menu ul li:hover ul li a {display:block; background:#cdcdcd url(/content/images/horizontalmenu-background.jpg); color:#000; text-align: center; border: solid 1px #393939; border-bottom: 5px solid #393939; padding-top: 4px; height: 17px;}
+.menu ul li:hover ul li a:hover {background:#cdcdcd; color:#000;}
+.menu ul li:hover ul li:hover ul {display:block; position:absolute; left:120px; top:0;}
+.menu ul li:hover ul li:hover ul.left {left:-105px;}
+
+
+
+#SmallHorizontalMenu {height:20px; }
+#SmallHorizontalMenu .SmallMenuItem {float:left; width:60px; border-right: solid 1px white; color:White; text-align:center; }
+#content {min-height: 600px; clear: both;background: url(/content/images/left-content-background-WhiteEdge.jpg) top left repeat-y;}
+#leftContent {float: left; width: 160px; min-height: 600px;}
+#rightContent {float: left; width: 605px; min-height: 600px; padding: 15px; background: #ffffff url(/content/images/header_content.jpg) top left repeat-x; padding-top: 0px; padding-bottom: 0px;}
+
+.thumbnails li {display:inline; float:left; margin: 10px; }
+.thumbnails input {padding:0px; }
+.footer {clear: both; background: #043567; min-height: 25px;}
+.leftFooter { color: #ffffff; background: #000000; padding: 5px; text-align: left;}
+.rightFooter {background: #043567; color: #ffffff; text-align: center; padding: 5px;}
+#bar {background: url(/content/images/left-content-background.jpg) top left repeat-y; height: 65px; width: 160px; text-align: center; border-bottom: 3px solid #000000;}
+#pageBottom {background: url(/content/images/page-bottom.jpg) bottom right no-repeat; height: 65px;}
+a.footer {color: White;}
+.GalleryTitle { background-color:Black; text-align:center; font-size:larger; color:White; font-weight:bold;}
+
+.side-menu li { padding:  5px 0px 5px 0px;}
+.menuHorItem { width: 130px; background: #d1d1d1 url(/content/images/button-background.jpg) top left repeat-x; padding: 5px 10px 5px 10px;  margin: 0 auto; text-align: center; border: 1px solid #000000; border-bottom: 5px solid #003366; text-transform: uppercase; color: Gray; display: block; margin-top: 10px;}
+.menuHorItem:hover { color:#33CCFF;}
+h1.title {padding-top: 20px; font-size: 22px;}
